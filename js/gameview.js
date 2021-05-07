@@ -3,8 +3,8 @@ const ctx = canvas.getContext('2d')
 const d = 3
 const tileWidth = canvas.width / d
 const tileHeight = canvas.height / d
-const tileColor = '#ccccff'
-const canvasColor = '#eee'
+const tileColor = '#484749f'
+const canvasColor = '#6a6d70'
 canvas.style.backgroundColor = canvasColor
 
 class Tile
@@ -21,7 +21,7 @@ class Tile
         if(this.val)
         {
             ctx.fillStyle = tileColor
-            ctx.strokeStyle = canvasColor
+            ctx.strokeStyle = 'be3144'
             ctx.linewidth = 5
             ctx.fillRect(this.col * tileWidth, this.row * tileHeight, tileWidth, tileHeight)
             ctx.strokeRect(this.col * tileWidth, this.row * tileHeight, tileWidth, tileHeight)
