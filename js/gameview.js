@@ -21,7 +21,7 @@ class Tile
         if(this.val)
         {
             ctx.fillStyle = tileColor
-            ctx.strokeStyle = 'be3144'
+            ctx.strokeStyle = '#be3144'
             ctx.linewidth = 5
             ctx.fillRect(this.col * tileWidth, this.row * tileHeight, tileWidth, tileHeight)
             ctx.strokeRect(this.col * tileWidth, this.row * tileHeight, tileWidth, tileHeight)
